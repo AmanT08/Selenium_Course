@@ -7,6 +7,10 @@ from selenium.webdriver.common.by import By
 chrome_opt= webdriver.ChromeOptions()
 chrome_opt.add_argument("headless")
 
+# to ignore the certification errors in browser
+# like your connection is not private
+chrome_opt.add_argument("--ignore-certificate-errors")
+
 
 driver=webdriver.Chrome(options=chrome_opt)
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
