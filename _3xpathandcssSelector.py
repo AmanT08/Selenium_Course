@@ -14,6 +14,7 @@ driver.find_element(By.NAME,"email").send_keys("hello@gmail.com")
 driver.find_element(By.ID,"exampleCheck1").click()
 
 
+
 # css selector tagname[attribute='value']
 driver.find_element(By.CSS_SELECTOR,"input[name='name']").send_keys("aman")
 
