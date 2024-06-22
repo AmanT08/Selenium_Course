@@ -10,3 +10,9 @@ import pytest
 def Browser_Method():
     # like invoking browser or something
     print("before the methods")
+
+
+@pytest.fixture()
+def data_load():
+    list1 = ["Aman", "Thapliyal", 24]
+    return list1
