@@ -16,3 +16,10 @@ def Browser_Method():
 def data_load():
     list1 = ["Aman", "Thapliyal", 24]
     return list1
+
+
+@pytest.fixture(params=(("aman","thapliyal"),("ramesh","abc"),("suresh","def")))
+def parameterize(request):
+    return request.param
+
+

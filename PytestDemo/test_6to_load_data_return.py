@@ -8,3 +8,7 @@ class Test_load_data:
         print(data_load[0])
         print(data_load[2])
 
+
+def test_param(parameterize):
+    print(parameterize[1])
+
