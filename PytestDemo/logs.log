@@ -1,0 +1,4 @@
+2024-06-23 19:21:51,183 : INFO : PytestDemo.test_logging : information
+2024-06-23 19:21:51,184 : WARNING : PytestDemo.test_logging : warning
+2024-06-23 19:21:51,185 : ERROR : PytestDemo.test_logging : error message
+2024-06-23 19:21:51,186 : CRITICAL : PytestDemo.test_logging : critical message
