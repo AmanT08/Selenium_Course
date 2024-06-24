@@ -2,3 +2,15 @@
 2024-06-23 19:21:51,184 : WARNING : PytestDemo.test_logging : warning
 2024-06-23 19:21:51,185 : ERROR : PytestDemo.test_logging : error message
 2024-06-23 19:21:51,186 : CRITICAL : PytestDemo.test_logging : critical message
+2024-06-24 00:01:05,677 : INFO : parent_class_of_logs : Inside child class of logs
+2024-06-24 00:01:05,678 : INFO : parent_class_of_logs : will be seen in HTML reports now
+2024-06-24 00:08:26,751 : INFO : test_firstMethod : Inside child class of logs
+2024-06-24 00:08:26,751 : INFO : test_firstMethod : will be seen in HTML reports now
+2024-06-24 00:10:08,259 : INFO : test_firstMethod : Inside child class of logs
+2024-06-24 00:10:08,260 : INFO : test_firstMethod : will be seen in HTML reports now
+2024-06-24 00:10:22,727 : INFO : PytestDemo.test_7logging : information
+2024-06-24 00:10:22,727 : WARNING : PytestDemo.test_7logging : warning
+2024-06-24 00:10:22,727 : ERROR : PytestDemo.test_7logging : error message
+2024-06-24 00:10:22,728 : CRITICAL : PytestDemo.test_7logging : critical message
+2024-06-24 00:10:22,928 : INFO : test_firstMethod : Inside child class of logs
+2024-06-24 00:10:22,928 : INFO : test_firstMethod : will be seen in HTML reports now
