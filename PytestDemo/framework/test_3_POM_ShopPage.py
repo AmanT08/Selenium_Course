@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 
+from test_4_POM_SuccessPage import Success
+
 
 class ShopPage:
     def __init__(self,driver):
@@ -27,4 +29,7 @@ class ShopPage:
         return self.driver.find_element(*ShopPage.Checkout_button)
 
     def confirm(self):
-        return self.driver.find_element(*ShopPage.confirm_button)
+        self.driver.find_element(*ShopPage.confirm_button).click()
+
+        success_obj = Success(self.driver)
+        return success_obj

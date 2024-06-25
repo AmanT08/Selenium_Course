@@ -13,9 +13,9 @@ class TestClassFramework(Base_class):
 
     def test_method_website(self):
         home_p= TestHomePage(self.driver)
-        home_p.test_home_page().click()
 
-        shop_p= ShopPage(self.driver)
+        # made the shop object in home file and then passed it here
+        shop_p = home_p.test_home_page()
 
         names= shop_p.get_model_names()
         provided_name= "Blackberry"
@@ -27,11 +27,10 @@ class TestClassFramework(Base_class):
 
         shop_p.checkout().click()
 
-        shop_p.confirm().click()
+       # made the object in shop file
+        success_obj = shop_p.confirm()
 
-        success_obj = Success(self.driver)
         success_obj.send_country().send_keys("Ind")
-
 
         wait = WebDriverWait(self.driver,5)
         wait.until((expected_conditions.presence_of_element_located(success_obj.wait_condition())))
