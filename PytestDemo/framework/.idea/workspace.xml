@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6998d5d3-e1dd-4224-9e69-c4214249111b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/ExcelDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_7logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test_7logging.py" afterDir="false" />
     </list>
@@ -41,11 +43,12 @@
     "Python tests.Python tests in test_7_use-diff-parameter.py.executor": "Run",
     "Python tests.Python tests in test_7_using-dictionry-for-param.py.executor": "Run",
     "Python tests.Python tests in test_8-use-logs.py.executor": "Run",
+    "Python.ExcelDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "PytestDemo",
     "last_opened_file_path": "C:/Users/hp/Desktop/pyyyyy/selenium/sele",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
