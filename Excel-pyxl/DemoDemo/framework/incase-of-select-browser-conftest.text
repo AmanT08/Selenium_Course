@@ -1,0 +1,33 @@
+from selenium import webdriver
+
+
+# FIRST GET THE METHOD FROM THEIR WEBSITE
+# COMMAND LINE OPTIONS PYTEST
+
+def pytest_addoption(parser):
+    parser.addoption(
+        "--browser-name", action="store", default="chrome"
+    )
+
+
+
+
+@pytest.fixture(scope="class")
+def general_Browser(request):
+
+    browser-name = request.config.getoption("--browser-name")
+
+    if browser-name == "chrome"
+    driver = webdriver.Chrome()
+
+    elif browser-name == "firefox"
+    driver = webdriver.firefox
+
+
+    driver.get("https://rahulshettyacademy.com/angularpractice/")
+    driver.implicitly_wait(5)
+    driver.maximize_window()
+    request.cls.driver = driver
+
+    yield
+    driver.close()

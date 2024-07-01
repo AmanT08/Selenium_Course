@@ -1,5 +1,6 @@
 import logging
 
+
 def test_log_demo():
 
     # make object of logging

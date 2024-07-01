@@ -5,27 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6998d5d3-e1dd-4224-9e69-c4214249111b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/.idea/framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/baseClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/incase-of-select-browser-conftest.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/result.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_0browser_generalise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_1_page_object_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_2_POM_homePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_3_POM_ShopPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_4_POM_SuccessPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_5_practice_login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_6_practice_generalise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_7_use-diff-parameter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/DemoDemo/framework/test_7_using-dictionry-for-param.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/conftest.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/data_for_test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Excel-pyxl/dict_use_in_test.py" afterDir="false" />
@@ -57,30 +36,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_5_practice_login_page.TestLoginPage.test_practice.executor": "Run",
-    "Python tests.Python tests in dict-use-in-test.py.executor": "Run",
-    "Python tests.Python tests in dict_use_in_test.py.executor": "Run",
-    "Python tests.Python tests in test_0browser_generalise.py.executor": "Run",
-    "Python tests.Python tests in test_1_page_object_model.py.executor": "Run",
-    "Python tests.Python tests in test_5_practice_login_page.py.executor": "Run",
-    "Python tests.Python tests in test_7_use-diff-parameter.py.executor": "Run",
-    "Python tests.Python tests in test_7_using-dictionry-for-param.py.executor": "Run",
-    "Python tests.Python tests in test_8-use-logs.py.executor": "Run",
-    "Python.ExcelDemo.executor": "Run",
-    "Python.data_for_test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "PytestDemo",
-    "last_opened_file_path": "C:/Users/hp/Desktop/pyyyyy/selenium/sele/Excel-pyxl/DemoDemo",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_5_practice_login_page.TestLoginPage.test_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in dict-use-in-test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in dict_use_in_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_0browser_generalise.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_1_page_object_model.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_5_practice_login_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_7_use-diff-parameter.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_7_using-dictionry-for-param.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_8-use-logs.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExcelDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PytestDemo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Desktop/pyyyyy/selenium/sele/Excel-pyxl&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\Desktop\pyyyyy\selenium\sele\Excel-pyxl\DemoDemo" />
-      <recent name="C:\Users\hp\Desktop\pyyyyy\selenium\sele\PytestDemo\framework" />
       <recent name="C:\Users\hp\Desktop\pyyyyy\selenium\sele\Excel-pyxl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -133,19 +109,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/PytestDemo" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>

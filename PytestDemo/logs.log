@@ -14,3 +14,27 @@
 2024-06-24 00:10:22,728 : CRITICAL : PytestDemo.test_7logging : critical message
 2024-06-24 00:10:22,928 : INFO : test_firstMethod : Inside child class of logs
 2024-06-24 00:10:22,928 : INFO : test_firstMethod : will be seen in HTML reports now
+2024-06-30 15:17:44,470 : INFO : test_practice : entering email
+2024-06-30 15:17:45,745 : INFO : test_practice : the message shown is×
+Success! The Form has been submitted successfully!.
+2024-06-30 15:17:50,196 : INFO : test_practice : entering email
+2024-06-30 15:17:50,196 : INFO : test_practice : entering email
+2024-06-30 15:17:50,974 : INFO : test_practice : the message shown is×
+Success! The Form has been submitted successfully!.
+2024-06-30 15:17:50,974 : INFO : test_practice : the message shown is×
+Success! The Form has been submitted successfully!.
+2024-06-30 15:21:55,526 : INFO : test_practice : entering email
+2024-06-30 15:21:56,611 : INFO : test_practice : the message shown is×
+Success! The Form has been submitted successfully!.
+2024-06-30 15:22:00,087 : INFO : test_practice : entering email
+2024-06-30 15:22:00,087 : INFO : test_practice : entering email
+2024-06-30 15:22:00,920 : INFO : test_practice : the message shown is×
+Success! The Form has been submitted successfully!.
+2024-06-30 15:22:00,920 : INFO : test_practice : the message shown is×
+Success! The Form has been submitted successfully!.
+2024-06-30 17:07:16,842 : INFO : PytestDemo.test_7logging : information
+2024-06-30 17:07:16,843 : WARNING : PytestDemo.test_7logging : warning
+2024-06-30 17:07:16,843 : ERROR : PytestDemo.test_7logging : error message
+2024-06-30 17:07:16,844 : CRITICAL : PytestDemo.test_7logging : critical message
+2024-06-30 17:07:17,199 : INFO : test_firstMethod : Inside child class of logs
+2024-06-30 17:07:17,200 : INFO : test_firstMethod : will be seen in HTML reports now
