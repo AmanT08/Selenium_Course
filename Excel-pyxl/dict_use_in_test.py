@@ -43,6 +43,6 @@ class TestLoginPage(Base_class):
     # you can make another file for the data and the just pass the value in params
 
     @pytest.fixture(params=DataForTest.dataa("t2"))
-    def dynamic_data(self,request):
+    def dynamic_data(self, request):
         return request.param
 
